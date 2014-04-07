@@ -1,0 +1,45 @@
+body {
+	background-color: #0769AD;
+	background:url('/assets/img/mountain.jpg');
+	background-size: 1200px 900px;
+	background-repeat: no-repeat;
+	font-family: helvetica;
+	background-attachment: fixed;
+
+}
+
+#form, #forecast {
+	width: 700px;
+	margin: 10px auto;
+	padding: 10px;
+	background-color:rgba(150, 180, 228, 0.6);
+	border-radius: 20px;
+	/*opacity:0.6;*/
+}
+
+#forecast {
+	min-height: 400px;
+}
+
+table {
+	text-align: center; 
+	border-collapse: collapse;
+	padding: 10px 0px;
+}
+
+td, th{
+	padding: 0px 10px;
+}
+
+.days {
+	display: inline-block;
+	margin-top: 10px;
+	border: 2px solid #0769AD;
+	padding: 10px;
+	background-color: #96B4E4;
+	border-radius: 10px;
+}
+
+a:visited {
+	color: #08507f;
+}
